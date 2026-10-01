@@ -92,8 +92,9 @@ header.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;backgroun
   .ln{grid-template-columns:1fr}
   .card p{font-size:20px}
   .ln .he{font-size:21px}
-  .sub{padding:10px 4% 12px}
-  .stage{aspect-ratio:16/9}
+  .stage{aspect-ratio:auto;overflow:visible;background:none;box-shadow:none}
+  .stage img{aspect-ratio:16/9;border-radius:12px}
+  .sub{position:static;background:var(--panel);border:1px solid var(--line);border-radius:12px;margin-top:10px;padding:12px 14px;min-height:0}
 }
 </style>
 </head>
